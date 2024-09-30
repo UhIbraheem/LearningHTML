@@ -1,0 +1,17 @@
+body{
+    background-color: aliceblue;
+}
+h1{
+    color: aqua;
+}
+
+#p2{
+    color: cadetblue;
+}
+
+#p4{
+    color: darkkhaki;
+}
+.odd{
+    color: red
+}

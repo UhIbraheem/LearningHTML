@@ -2,6 +2,7 @@
 <html>
     <head>
         <title> My first website</title>
+        <link rel="stylesheet" href="style.css">
     </head>
     <body>
         <!-- These are heading tags which decrease in size
@@ -14,25 +15,11 @@
         <a href="lyrics.html">Go to Song page</a>
 
         <!-- Adding audio -->
-        <p>
-            Mirage melody
-         </p>
-         <audio controls>
-            <source src="/audio/Mirage melody - Patrick Patrikios.mp3"> 
-         </audio>
-
          <p>
             Sunlit Souk
          </p>
          <audio controls>
-            <source src="/audio/Sunlit Souk - Patrick Patrikios.mp3">
-         </audio>
-
-         <p>
-            Temple of treasures
-         </p>
-         <audio controls>
-            <source src="/audio/Temple of treasures - Patrick Patrikios.mp3">
+            <source src="audio/Sunlit Souk - Patrick Patrikios.mp3">
          </audio>
 
         <p>
@@ -50,8 +37,18 @@
             email me
         </a>
 
+        <br>
         <img src="images/dog.png"
-        alt="This is a picture of a cute dog">
+        alt="This is a picture of a cute dog"
+        width="200">
+        
+        <!--Inline CSS-->
+        <h1 style="color:darkslategrey">Using CSS to style the following</h1>
+
+        <p id="p1" class="odd">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Reprehenderit, ad pariatur commodi molestiae obcaecati inventore assumenda atque ullam cumque at minus sint voluptate consequuntur distinctio reiciendis quia cupiditate sed beatae?</p>
+        <p id="p2" class="even">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Reprehenderit, ad pariatur commodi molestiae obcaecati inventore assumenda atque ullam cumque at minus sint voluptate consequuntur distinctio reiciendis quia cupiditate sed beatae?</p>
+        <p id="p3" class="odd">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Reprehenderit, ad pariatur commodi molestiae obcaecati inventore assumenda atque ullam cumque at minus sint voluptate consequuntur distinctio reiciendis quia cupiditate sed beatae?</p>
+        <p id="p4" class="even">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Reprehenderit, ad pariatur commodi molestiae obcaecati inventore assumenda atque ullam cumque at minus sint voluptate consequuntur distinctio reiciendis quia cupiditate sed beatae?</p>
 
     </body>
 </html>
