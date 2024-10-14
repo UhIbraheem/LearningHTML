@@ -1,0 +1,28 @@
+/* Styling the header section */
+.header-section {
+    width: 100%;
+    height: 300px; /* Example height, adjust as needed */
+    overflow: hidden; /* Ensures the image doesn’t spill out */
+    position: relative; /* Allows for responsive image scaling */
+}
+
+/* Styling the image */
+.header-image {
+    width: 100%; /* Image takes the full width of the header */
+    height: 100%; /* Image takes the full height of the header */
+    object-fit: cover; /* Ensures the image covers the header area without distortion */
+}
+
+.flex-container {
+    display: flex; /* Enables flexbox */
+    justify-content: space-between; /* Distributes space equally between items */
+    width: 100%; /* Makes the container adjust with the page width */
+    padding: 10px;
+    margin-right: 20px;
+}
+
+.flex-container a{
+    margin: 0;
+    padding: 0;
+    font-size: 18px;
+}
